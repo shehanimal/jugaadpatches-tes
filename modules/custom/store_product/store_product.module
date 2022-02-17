@@ -1,0 +1,10 @@
+<?php
+
+function store_product_theme($existing, $type, $theme, $path){
+	return[
+	      'qrcode_block' => [
+		        'variables' => ['qrcode_data' => NULL ],
+]
+	];
+	
+}

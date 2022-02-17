@@ -1,0 +1,60 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.field.node.store_product.field_product_title
+        - field.field.node.store_product.field_product_image
+        - field.field.node.store_product.field_product_description
+        - field.field.node.store_product.field_app_purches_link
+        - node.type.store_product
+    module:
+        - image
+        - link
+        - text
+        - user
+id: node.store_product.default
+targetEntityType: node
+bundle: store_product
+mode: default
+content:
+  field_app_purches_link:
+    weight: 104
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_product_description:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_product_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_product_title:
+    weight: 100
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

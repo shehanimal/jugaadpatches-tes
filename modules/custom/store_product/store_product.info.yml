@@ -1,0 +1,6 @@
+name: Store Products
+type: module
+description: 'Store product content type.'
+core: 8.x
+dependencies:
+  - node

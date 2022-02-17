@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - store_product
+name: 'Store Products'
+type: store_product
+description: 'Content type that can be used to add <em>Jugaad Patches products</em> page.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true
